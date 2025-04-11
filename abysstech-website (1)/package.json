@@ -13,5 +13,10 @@
     "recharts": "^2.5.0",
     "framer-motion": "^10.12.16",
     "lucide-react": "^0.258.0"
+  },
+  "devDependencies": {
+    "typescript": "^5.2.2",
+    "@types/react": "^18.2.14",
+    "@types/node": "^20.4.2"
   }
 }
