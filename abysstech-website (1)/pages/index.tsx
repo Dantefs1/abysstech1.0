@@ -48,7 +48,8 @@ const translations = {
 
 export default function AbysstechHome() {
   const [copied, setCopied] = useState(false);
-  const [lang, setLang] = useState("zh");
+  type Language = keyof typeof translations;
+  const [lang, setLang] = useState<Language>("zh");
   const [isLoading, setIsLoading] = useState(true);
   const t = translations[lang];
   const contractAddress = "So1aNaEXamp1eT0kenC0ntractAbYsSTech";
